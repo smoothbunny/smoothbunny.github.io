@@ -1,0 +1,174 @@
+/*---------------------------------
+add css standard start
+--------------------------------*/
+
+img {
+	max-width: 100%;
+}
+
+table {
+	width: 100%;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	min-height: 1px;
+}
+
+* html .clearfix {
+	height: 1px;
+	/*¥*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
+
+.both {
+	clear: both;
+}
+
+.inline_block {  
+	display: inline-block;  
+	*display: inline;  
+	*zoom: 1;  
+}
+
+/*---------------------------------
+add css standard end
+add css layout start
+--------------------------------*/
+
+body {
+    background: #000;
+}
+
+.contents {
+    width: 80%;
+    text-align: center;
+    padding: 30px;
+    background:#000;
+    margin: 0 auto;
+}
+
+.head {
+    height: 20px;
+    color: #3CB371;
+}
+
+.head ul{
+    float: right;
+}
+
+.head li{
+    list-style: none;
+    display: inline-block;
+    border: solid 1px #3CB371;
+    padding: 2px 5px;
+}
+
+
+.main {
+    /*background-image: bg.jpg;*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.info {
+    width:400px;
+    display: inline-block;
+}
+
+.info h3 {
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.imgInfo {
+    width:300px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+.info h1{
+    font-size: 50px;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 20px;
+}
+
+.info p{
+    text-align: left;
+    width: 300px;
+    padding: 0 10px;
+}
+
+.acount {
+    border: solid 1px #ccc;
+    padding: 10px;
+    margin: 10px;
+    line-height: 2em;
+}
+
+.acount li{
+    list-style: disc;
+    display: block;
+    text-align: left;
+}
+
+
+.imgList li{
+    border: solid 1px green;
+    list-style: none;
+    width: 135px;
+    height: 135px;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.app {
+    margin: 20px 0;
+    padding-top: 20px;
+    border-top: dashed 1px #ccc;
+}
+
+.app h2{
+    font-size: 25px;
+}
+
+.app p{
+    padding: 10px;
+}
+
+.appList li{
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    margin: 10px 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+	.contents div{
+		width: 100%;
+		margin: 0 0 24px;
+		float: none;
+	}
+}
+
+/*---------------------------------
+add css layout end
+--------------------------------*/
